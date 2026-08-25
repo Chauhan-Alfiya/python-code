@@ -99,44 +99,43 @@ tk.Label(
 ).grid(row=7,column=0,padx=10,pady=10,sticky="w")
 dob_entry=tk.Entry(
     width=35,
-    font=("Arial",12),
-    show="*"
+    font=("Arial",12)
 )
 dob_entry.grid(row=7,column=1,padx=10,pady=10,sticky="w")
 
 tk.Label(
     text="Address:",
     font=("Arial",12)
-).grid(row=7,column=0,padx=10,pady=10,sticky="w")
+).grid(row=8,column=0,padx=10,pady=10,sticky="w")
 add_entry=tk.Entry(
     width=35,
     font=("Arial",12)
     
 )
-add_entry.grid(row=7,column=1,padx=10,pady=10,sticky="w")
+add_entry.grid(row=8,column=1,padx=10,pady=10,sticky="w")
 
 
 tk.Label(
     text="Password:",
     font=("Arial",12)
-).grid(row=8,column=0,padx=10,pady=10,sticky="w")
+).grid(row=9,column=0,padx=10,pady=10,sticky="w")
 password_entry=tk.Entry(
     width=35,
     font=("Arial",12),
     show="*"
 )
-password_entry.grid(row=8,column=1,padx=10,pady=10,sticky="w")
+password_entry.grid(row=9,column=1,padx=10,pady=10,sticky="w")
 
 tk.Label(
     text="Confrim Password:",
     font=("Arial",12)
-).grid(row=9,column=0,padx=10,pady=10,sticky="w")
+).grid(row=10,column=0,padx=10,pady=10,sticky="w")
 confirm_password_entry=tk.Entry(
     width=35,
     font=("Arial",12),
     show="*"
 )
-confirm_password_entry.grid(row=9,column=1,padx=10,pady=10,sticky="w")
+confirm_password_entry.grid(row=10,column=1,padx=10,pady=10,sticky="w")
 
 def submit():
     messagebox.showinfo(
@@ -150,10 +149,6 @@ submit_button = tk.Button(
     width=15,
     command=submit
 )
-submit_button.grid(
-    row=10,
-    column=1,
-    padx=10,
-    pady=20
-)
+submit_button.grid(row=11,column=1,padx=10,pady=20)
+
 root.mainloop()
