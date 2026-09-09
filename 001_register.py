@@ -82,6 +82,7 @@ tk.Label(
 
 gender= tk.StringVar()
 
+
 tk.Radiobutton(
     text="Male",
     variable=gender,
