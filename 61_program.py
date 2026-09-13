@@ -39,4 +39,5 @@ conn.commit()
 print("record inserted.")
 conn.close()
 
+
 cursor.execute("select * from Studentinfo")
